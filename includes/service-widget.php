@@ -99,7 +99,7 @@ class Tservice_widget extends WP_Widget {
                 $text .=  '<p class="more-link"><a href="'.get_the_permalink().'" class="read-more">Read More</a></p></section>';
         endwhile;
         else:
-            $text ='<p>N Products found.</p>';
+            $text ='<p>No Products found.</p>';
         endif;
         wp_reset_postdata();
         echo $text;
