@@ -34,9 +34,10 @@ function service_shortcode($serv_attr){
         while($loop->have_posts()) : $loop->the_post();
             $price=get_post_meta(get_the_ID(), '_service_meta_price', true);
             $text .= '<section class="tiny-product"><h3>'. get_the_title(). '</h3>';
-            $text .= '<p>'.$price. '</p>';
+            $text .= '<p class="my-price">Just for € '.$price. '</p>';
             $text .= get_the_post_thumbnail();
-            $text .= get_the_content() .'</section>';
+            $text .= get_the_content();
+            $text .=  '<p class="more-link"><a href="'.get_the_permalink().'" class="read-more">Read More</a></p></section>';
     endwhile;
     else:
         $text ='<p>N Products found.</p>';
