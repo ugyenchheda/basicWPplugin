@@ -12,8 +12,8 @@ function ugyen_services_setup_menu(){
 }
 
 function service_display_admin_page(){
-    echo '<h1>Services Ugyen Provide</h1>';
-    echo '<p>List of services I provide as a WordPress developer. Just add the shortcode to display on the website. [ugyens-services] to show
+    echo '<h1>Add Services </h1>';
+    echo '<p>List of services available and can be displayed using shortcode [ugyens-services] to show
     all your services or [ugyen-services category="your-category"]</p>';
     echo '<p>We should have widget. This is just a first stage plugin, it will be updated on the weekly basis. </p>';
 }
