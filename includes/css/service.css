@@ -60,20 +60,3 @@ a {
     margin: 0 -.25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
-  .myman a:hover {
-    color: #fff;
-    box-shadow: inset 200px 0 0 0 #54b3d6;;
-  }
-  
-  /* Presentational styles */
-  .mymana {
-    color: #54b3d6;
-    font-family: 'Poppins', sans-serif;
-    font-size: 27px;
-    font-weight: 700;
-    line-height: 1.5;
-    text-decoration: none;
-  }
-  
- 
-  
