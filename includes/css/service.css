@@ -52,7 +52,6 @@ p.my-price {
 #site-footer {
     margin-top: 20px;
 }
-
 a {
     box-shadow: inset 0 0 0 0 #54b3d6;
     color: #54b3d6;
@@ -60,3 +59,8 @@ a {
     margin: 0 -.25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
+
+
+
+
+//mobile
